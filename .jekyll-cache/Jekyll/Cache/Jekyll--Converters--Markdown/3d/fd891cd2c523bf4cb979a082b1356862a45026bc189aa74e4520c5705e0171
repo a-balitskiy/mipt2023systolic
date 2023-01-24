@@ -1,7 +1,11 @@
-I"�<ul>
+I"�<ul>
   <li><a href="https://drive.google.com/file/d/1B6dCC30InHXP04sOaz8gXc6RbwyFdnbt/view?usp=sharing"><mark>Видео</mark></a></li>
   <li><a href="/mipt2023systolic/whiteboard/lec11.pdf"><mark>Доска</mark></a></li>
 </ul>
+
+<p>$\sum_i x_i = 1$</p>
+
+\[\sum_i x_i = 1\]
 
 <h2 id="тезисы">—Тезисы—</h2>
 
@@ -13,7 +17,7 @@
   <li>или ячейка Вороного решётки \(A_{n-1}^*\) (см. задачи).</li>
 </ul>
 
-<p><img src="/mipt2023systolic/pics/permutohedron.jpg" alt="Пермутоэдр" title="Фото: А. Балицкий" /></p>
+<p><img src="/mipt2023systolic/images/amanha.jpg" alt="Систолы и диастолы" title="Фото: А. Балицкий" /></p>
 
 <blockquote>
   <p><strong>Теорема.</strong> \((n-1)\)-мерный объём \(P_{n-1}\) равен \(n^{n-3/2}\).</p>

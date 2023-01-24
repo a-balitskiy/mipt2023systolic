@@ -1,13 +1,16 @@
 ---
-#redirect_from: /_posts/2020-11-14-SYSU-Collegiate-Programming-Contest-2020,-Online/
-title: Permutohedron
-tags:
-  - 算法竞赛
+title: О курсе
+permalink: /intro
 ---
 
 + [<mark>Видео</mark>](https://drive.google.com/file/d/1B6dCC30InHXP04sOaz8gXc6RbwyFdnbt/view?usp=sharing)
 + [<mark>Доска</mark>]({{site.baseurl}}/whiteboard/lec11.pdf)
 
+$\sum_i x_i = 1$
+
+$$
+\sum_i x_i = 1
+$$
 
 ## ---Тезисы---
 
@@ -17,7 +20,7 @@ _Пермутоэдром_ \\(P_{n-1}\\) называется многогран
 + или сумма Минковского рёбер симплекса \\(\\{(x_1, \ldots, x_n) \in \mathbb{R}^{n} ~\vert~ x_i \ge 0, \sum x_i = 1\\}\\);
 + или ячейка Вороного решётки \\(A_{n-1}^*\\) (см. задачи).
 
-![Пермутоэдр]({{site.baseurl}}/pics/permutohedron.jpg "Фото: А. Балицкий")
+![Систолы и диастолы]({{site.baseurl}}/images/amanha.jpg "Фото: А. Балицкий")
 
 > **Теорема.** \\((n-1)\\)-мерный объём \\(P_{n-1}\\) равен \\(n^{n-3/2}\\).
 
