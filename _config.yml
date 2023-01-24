@@ -4,15 +4,20 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   <br/>
   <br/>
   <br/>
-  email: 
+  email автора
   <a href="mailto:aleksei.balitskii@phystech.edu">
     <i class="fa-solid fa-envelope"></i>
   </a><br/>
-  telegram: 
+  zoom занятий
+  <a href="https://us06web.zoom.us/j/89148032937?pwd=aUNkNmd1eHUxTzd4a24wQ1VyUmVxQT09">
+    <i class="fa-solid fa-tv"></i>
+  </a><br/>
+  чат курса 
   <a href="https://t.me/+55wKFd6oqJ1iOTBi">
     <i class="fa-brands fa-telegram"></i>
   </a>
   <br/>
+  
 url: "https://balit.ski"
 baseurl: "/mipt2023systolic" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
@@ -221,21 +226,15 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 <div>
                   <div>
                     <i class="fa-solid fa-eye fa-fw"></i>
-                    <span id="busuanzi_value_page_pv">
-                      <i class="fa-solid fa-spinner fa-pulse"></i>
-                    </span>次
-                  </div>
-                  <div>
-                    <i class="fa-solid fa-paw fa-fw"></i>
                     <span id="busuanzi_value_site_pv">
                       <i class="fa-solid fa-spinner fa-pulse"></i>
-                    </span>枚
+                    </span>
                   </div>
                   <div>
                     <i class="fa-solid fa-user-friends fa-fw"></i>
                     <span id="busuanzi_value_site_uv">
                       <i class="fa-solid fa-spinner fa-pulse"></i>
-                    </span>人
+                    </span>
                   </div>
                   <script
                     src='https://cdn.jsdelivr.net/npm/busuanzi@2.3/bsz.pure.mini.js'
@@ -558,138 +557,138 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                         x.parentNode.insertAdjacentElement("beforebegin", m);
                       }'
                 ></script>
-            - smart_include:
-                enable: false
-              append: | # 引入live2d看板娘！不需要可以把这一项都删掉
-                <link
-                  rel="stylesheet"
-                  href="https://cdn.jsdelivr.net/gh/Dreamer-Paul/Pio@2.4/static/pio.min.css"
-                />
-                <style>
-                  @media only print {
-                    .pio-container {
-                      display: none;
-                    }
-                  }
-                </style>
-                <script
-                  async="async"
-                  src="https://cdn.jsdelivr.net/combine/gh/Dreamer-Paul/Pio@2.4/static/l2d.min.js,gh/Dreamer-Paul/Pio@2.4/static/pio.min.js"
-                  onload='
-                    let pio_container = document.createElement("div");
-                    pio_container.classList.add("pio-container");
-                    pio_container.classList.add("right");
-                    pio_container.style.bottom = "-2rem";
-                    pio_container.style.zIndex = "1";
-                    document.body.insertAdjacentElement("beforeend", pio_container);
-                    let pio_action = document.createElement("div");
-                    pio_action.classList.add("pio-action");
-                    pio_container.insertAdjacentElement("beforeend", pio_action);
-                    let pio_canvas = document.createElement("canvas");
-                    pio_canvas.id = "pio";
-                    pio_canvas.style.width = "14rem";
-                    pio_canvas.width = "600";
-                    pio_canvas.height = "800";
-                    pio_container.insertAdjacentElement("beforeend", pio_canvas);
-                    let pio = new Paul_Pio({
-                      "mode": "fixed",
-                      "hidden": true,
-                      "night": "for(let i=7; i<16; ++i) if(document.body.classList.contains(`theme-base-0`+i.toString(16))) { document.body.classList.remove(`theme-base-0`+i.toString(16)); document.body.classList.add(`theme-base-0`+((i-6)%9+7).toString(16)); break; }",
-                      "content": {
-                        "link": ["https:\/\/jekyll-theme-WuK.wu-kan.cn"],
-                        "skin": ["要换成我的朋友吗？", "让她放个假吧~"],
-                        "hidden": true,
-                        "custom": [{
-                          "selector": "a",
-                          "type": "link",
-                        }, {
-                          "selector": ".sidebar-toggle",
-                          "text": "打开侧边栏叭~"
-                        }, {
-                          "selector": ".effect-info",
-                          "text": "哇，你发现了什么！"
-                        }, {
-                          "selector": "#sidebar-search-input",
-                          "text": "想搜索什么呢？很多干货哦！"
-                        }, {
-                          "selector": "#toc",
-                          "text": "这是目录~"
-                        }, {
-                          "selector": ".page-title",
-                          "text": "这是标题~"
-                        }]
-                      },
-                      "model": [
-                        "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/33/model.2018.bls-winter.json",
-                        "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/platelet-2/model.json",
-                        "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/xiaomai/xiaomai.model.json",
-                        "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/mashiro/seifuku.model.json",
-                        "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/Violet/14.json",
-                        "https:\/\/cdn.jsdelivr.net/gh/xiaoski/live2d_models_collection/Kobayaxi/Kobayaxi.model.json",
-                        "https:\/\/cdn.jsdelivr.net/gh/xiaoski/live2d_models_collection/mikoto/mikoto.model.json",
-                        "https:\/\/cdn.jsdelivr.net/gh/xiaoski/live2d_models_collection/uiharu/uiharu.model.json"]
-                    });'
-                ></script>
+            # - smart_include:
+                # enable: false
+              # append: | # 引入live2d看板娘！不需要可以把这一项都删掉
+                # <link
+                  # rel="stylesheet"
+                  # href="https://cdn.jsdelivr.net/gh/Dreamer-Paul/Pio@2.4/static/pio.min.css"
+                # />
+                # <style>
+                  # @media only print {
+                    # .pio-container {
+                      # display: none;
+                    # }
+                  # }
+                # </style>
+                # <script
+                  # async="async"
+                  # src="https://cdn.jsdelivr.net/combine/gh/Dreamer-Paul/Pio@2.4/static/l2d.min.js,gh/Dreamer-Paul/Pio@2.4/static/pio.min.js"
+                  # onload='
+                    # let pio_container = document.createElement("div");
+                    # pio_container.classList.add("pio-container");
+                    # pio_container.classList.add("right");
+                    # pio_container.style.bottom = "-2rem";
+                    # pio_container.style.zIndex = "1";
+                    # document.body.insertAdjacentElement("beforeend", pio_container);
+                    # let pio_action = document.createElement("div");
+                    # pio_action.classList.add("pio-action");
+                    # pio_container.insertAdjacentElement("beforeend", pio_action);
+                    # let pio_canvas = document.createElement("canvas");
+                    # pio_canvas.id = "pio";
+                    # pio_canvas.style.width = "14rem";
+                    # pio_canvas.width = "600";
+                    # pio_canvas.height = "800";
+                    # pio_container.insertAdjacentElement("beforeend", pio_canvas);
+                    # let pio = new Paul_Pio({
+                      # "mode": "fixed",
+                      # "hidden": true,
+                      # "night": "for(let i=7; i<16; ++i) if(document.body.classList.contains(`theme-base-0`+i.toString(16))) { document.body.classList.remove(`theme-base-0`+i.toString(16)); document.body.classList.add(`theme-base-0`+((i-6)%9+7).toString(16)); break; }",
+                      # "content": {
+                        # "link": ["https:\/\/jekyll-theme-WuK.wu-kan.cn"],
+                        # "skin": ["要换成我的朋友吗？", "让她放个假吧~"],
+                        # "hidden": true,
+                        # "custom": [{
+                          # "selector": "a",
+                          # "type": "link",
+                        # }, {
+                          # "selector": ".sidebar-toggle",
+                          # "text": "打开侧边栏叭~"
+                        # }, {
+                          # "selector": ".effect-info",
+                          # "text": "哇，你发现了什么！"
+                        # }, {
+                          # "selector": "#sidebar-search-input",
+                          # "text": "想搜索什么呢？很多干货哦！"
+                        # }, {
+                          # "selector": "#toc",
+                          # "text": "这是目录~"
+                        # }, {
+                          # "selector": ".page-title",
+                          # "text": "这是标题~"
+                        # }]
+                      # },
+                      # "model": [
+                        # "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/33/model.2018.bls-winter.json",
+                        # "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/platelet-2/model.json",
+                        # "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/xiaomai/xiaomai.model.json",
+                        # "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/mashiro/seifuku.model.json",
+                        # "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/Violet/14.json",
+                        # "https:\/\/cdn.jsdelivr.net/gh/xiaoski/live2d_models_collection/Kobayaxi/Kobayaxi.model.json",
+                        # "https:\/\/cdn.jsdelivr.net/gh/xiaoski/live2d_models_collection/mikoto/mikoto.model.json",
+                        # "https:\/\/cdn.jsdelivr.net/gh/xiaoski/live2d_models_collection/uiharu/uiharu.model.json"]
+                    # });'
+                # ></script>
         post:
           date: # 显示博文时间
             enable: true
             prepend: <i class="fa-solid fa-calendar-day fa-fw"></i>
           wordcount: # 统计全文字数
-            enable: true
+            enable: false
             prepend: <i class="fa-solid fa-file-word fa-fw"></i>
             unit: 字
           readtime: # 计算文章阅读时间
-            enable: true
+            enable: false
             prepend: <i class="fa-solid fa-clock fa-fw"></i>
             unit: 分
             divided_by: 300 # 正常人的阅读速度大概每分钟三百个字
-          copyright:
-            | # 我的文章使用最宽松的知识共享协议：署名 4.0 国际 (CC BY 4.0)。您可以自由地：共享 — 在任何媒介以任何形式复制、发行本作品；演绎 — 修改、转换或以本作品为基础进行创作；在任何用途下，甚至商业目的。只要你遵守许可协议条款，许可人就无法收回你的这些权利。惟须遵守下列条件：署名 — 您必须给出适当的署名，提供指向本许可协议的链接，同时标明是否（对原始作品）作了修改。您可以用任何合理的方式来署名，但是不得以任何方式暗示许可人为您或您的使用背书。
-            <br/>
-            <i class="fab fa-creative-commons-by fa-fw"></i>
-            <a
-              href="https://creativecommons.org/licenses/by/4.0/deed.zh"
-              rel="license">
-              CC BY 4.0
-            </a>
-            （除特别声明或转载文章外）
-            <br/>
-            <i class="fa-solid fa-coffee fa-fw"></i>
-            <a href="/merger/">如果这篇博客帮助到你，可以请我喝一杯咖啡~</a>
-        merger: # 打赏页，需要配置！
-          append_to_head:
-            - | # 需要配置的变量见<https://merger.justhx.com/cn/docs/configure>
-              <script>
-                var myname = "WuK";
-                var profile = "i@wu-kan.cn";
-                var usage = "payment";
-                var wechat = "wxp://f2f0BhUoIC_9gex7-tC2PRvVuoA486mK5WyC";
-                var tenpay = "https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&ac=CAEQ77zFwQMY-6u57gU%3D_xxx_sign&u=942759535&n=%E8%94%9A";
-                var alipay = "https://qr.alipay.com/fkx02750b5kbplxvudqrx16";
-                var paypal = "https://paypal.me/wukan0621";
-                var multilingual = false;
-                var branding = false;
-                var title = "选择你的支付方式";
-                var subtitle = "跟随进一步的指示以向" + myname + "付款";
-                var qrcodeapi = "https://www.zhihu.com/qrcode?url=";
-                var gravatar_url = "https://gravatar.loli.net/avatar/";
-              </script>
-            - |
-              <meta
-                charset="utf-8"
-              />
-              <meta
-                name="viewport"
-                content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-              />
-              <meta
-                http-equiv="Content-Security-Policy"
-                content="upgrade-insecure-requests"
-              />
-            - | # merger的页面样式
-              <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/gh/hifocus/merger@0.26.1/assets/styles/spectre.css/spectre-modified.min.css,gh/hifocus/merger@0.26.1/assets/styles/style.min.css">
-              <script defer="defer" src="https://cdn.jsdelivr.net/combine/npm/jquery@3.5.1"></script>
-              <script defer="defer" src="https://cdn.jsdelivr.net/combine/gh/lrsjng/jquery-qrcode@0.18.0/dist/jquery-qrcode.min.js,npm/blueimp-md5@2.18.0/js/md5.min.js,gh/hifocus/merger@0.26.1/assets/js/function.min.js,gh/hifocus/merger@0.26.1/assets/js/font_974919_xgtacm93vxp.min.js"></script>
+          # copyright:
+            # | # 我的文章使用最宽松的知识共享协议：署名 4.0 国际 (CC BY 4.0)。您可以自由地：共享 — 在任何媒介以任何形式复制、发行本作品；演绎 — 修改、转换或以本作品为基础进行创作；在任何用途下，甚至商业目的。只要你遵守许可协议条款，许可人就无法收回你的这些权利。惟须遵守下列条件：署名 — 您必须给出适当的署名，提供指向本许可协议的链接，同时标明是否（对原始作品）作了修改。您可以用任何合理的方式来署名，但是不得以任何方式暗示许可人为您或您的使用背书。
+            # <br/>
+            # <i class="fab fa-creative-commons-by fa-fw"></i>
+            # <a
+              # href="https://creativecommons.org/licenses/by/4.0/deed.zh"
+              # rel="license">
+              # CC BY 4.0
+            # </a>
+            # （除特别声明或转载文章外）
+            # <br/>
+            # <i class="fa-solid fa-coffee fa-fw"></i>
+            # <a href="/merger/">如果这篇博客帮助到你，可以请我喝一杯咖啡~</a>
+        # merger: # 打赏页，需要配置！
+          # append_to_head:
+            # - | # 需要配置的变量见<https://merger.justhx.com/cn/docs/configure>
+              # <script>
+                # var myname = "WuK";
+                # var profile = "i@wu-kan.cn";
+                # var usage = "payment";
+                # var wechat = "wxp://f2f0BhUoIC_9gex7-tC2PRvVuoA486mK5WyC";
+                # var tenpay = "https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&ac=CAEQ77zFwQMY-6u57gU%3D_xxx_sign&u=942759535&n=%E8%94%9A";
+                # var alipay = "https://qr.alipay.com/fkx02750b5kbplxvudqrx16";
+                # var paypal = "https://paypal.me/wukan0621";
+                # var multilingual = false;
+                # var branding = false;
+                # var title = "选择你的支付方式";
+                # var subtitle = "跟随进一步的指示以向" + myname + "付款";
+                # var qrcodeapi = "https://www.zhihu.com/qrcode?url=";
+                # var gravatar_url = "https://gravatar.loli.net/avatar/";
+              # </script>
+            # - |
+              # <meta
+                # charset="utf-8"
+              # />
+              # <meta
+                # name="viewport"
+                # content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+              # />
+              # <meta
+                # http-equiv="Content-Security-Policy"
+                # content="upgrade-insecure-requests"
+              # />
+            # - | # merger的页面样式
+              # <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/gh/hifocus/merger@0.26.1/assets/styles/spectre.css/spectre-modified.min.css,gh/hifocus/merger@0.26.1/assets/styles/style.min.css">
+              # <script defer="defer" src="https://cdn.jsdelivr.net/combine/npm/jquery@3.5.1"></script>
+              # <script defer="defer" src="https://cdn.jsdelivr.net/combine/gh/lrsjng/jquery-qrcode@0.18.0/dist/jquery-qrcode.min.js,npm/blueimp-md5@2.18.0/js/md5.min.js,gh/hifocus/merger@0.26.1/assets/js/function.min.js,gh/hifocus/merger@0.26.1/assets/js/font_974919_xgtacm93vxp.min.js"></script>
         home: # 展示页的配置可跳过，详见<https://revealjs.com/>
           append_to_section_tag:
             - key: data-markdown
@@ -758,11 +757,11 @@ remote_theme: https://github.com/wu-kan/jekyll-theme-WuK@4.2.0 #使用固定版�
 readme_index: # 缺失index.md和index.html时，使用README.md代替之
   with_frontmatter: true # 支持带有yaml头的README
 
-webmaster_verifications: # <https://jekyll.github.io/jekyll-seo-tag/usage/>
-  google: YIKi1rBnyUaS-DMYiluseI5kZzTwjCkTFmKkSkMZDJk
-  baidu: szbTSfUGAB
+# webmaster_verifications: # <https://jekyll.github.io/jekyll-seo-tag/usage/>
+  # google: YIKi1rBnyUaS-DMYiluseI5kZzTwjCkTFmKkSkMZDJk
+  # baidu: szbTSfUGAB
 
-permalink: pretty
+#permalink: pretty
 # timezone: Asia/Shanghai # 解决githubpage显示时间不正确的问题，见<https://www.iana.org/time-zones>
 future: true # 允许发布时间在未来的文章
 
