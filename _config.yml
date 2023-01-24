@@ -13,9 +13,9 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
     <i class="fa-brands fa-telegram"></i>
   </a>
   <br/>
-  zoom занятий
+  zoom лекций
   <a href="https://us06web.zoom.us/j/89148032937?pwd=aUNkNmd1eHUxTzd4a24wQ1VyUmVxQT09">
-    <i class="fa-solid fa-envelope"></i>
+    <i class="fa-solid fa-tv"></i>
   </a><br/>
   
 url: "https://balit.ski"
