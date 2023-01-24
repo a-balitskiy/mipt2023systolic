@@ -1,14 +1,16 @@
-# 星合の空
+## Систолическая геометрия
 
-欢迎访问我的主页！下面向你介绍一下我吧\~
+Онлайн-кружок весны 2023 г.
+
+По пятницам в 18:40 в [zoom](https://us06web.zoom.us/j/89148032937?pwd=aUNkNmd1eHUxTzd4a24wQ1VyUmVxQT09)'е
+
+Первая лекция 10 февраля
 
 <!-- .slide -->
 
-## Contact
+## О курсе
 
-- Address
-  - **Sun Yat-sen University - 132 Waihuan East Rd. - Guangzhou, China**
-- Site
+- [Описание и список тем]({{site.baseurl}}/about)
   - **<https://wu-kan.cn>**
 - [Resume](https://resume.wu-kan.cn/index.pdf)
 
