@@ -1,4 +1,4 @@
-title: wu-kan # 站点标题
+title: systole # 站点标题
 description: | # 头像背后的信息（html格式），<br/>代表换行
   <br/>
   <br/>
@@ -8,15 +8,15 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   <a href="mailto:aleksei.balitskii@phystech.edu">
     <i class="fa-solid fa-envelope"></i>
   </a><br/>
-  zoom занятий
-  <a href="https://us06web.zoom.us/j/89148032937?pwd=aUNkNmd1eHUxTzd4a24wQ1VyUmVxQT09">
-    <i class="fa-solid fa-tv"></i>
-  </a><br/>
   чат курса 
   <a href="https://t.me/+55wKFd6oqJ1iOTBi">
     <i class="fa-brands fa-telegram"></i>
   </a>
   <br/>
+  zoom занятий
+  <a href="https://us06web.zoom.us/j/89148032937?pwd=aUNkNmd1eHUxTzd4a24wQ1VyUmVxQT09">
+    <i class="fa-solid fa-envelope"></i>
+  </a><br/>
   
 url: "https://balit.ski"
 baseurl: "/mipt2023systolic" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
@@ -29,9 +29,9 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
         comments: # 留言页，请先修改这里，确保使用的是你自己的repo！参照<https://utteranc.es/>
           append: |
             <script
-              repo="wu-kan/utterances-storage"
+              repo="a-balitskiy/mipt2023systolic"
               src="https://utteranc.es/client.js"
-              issue-term="url"
+              issue-term="pathname"
               theme="github-light"
               crossorigin="anonymous"
               async="async"
@@ -291,12 +291,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               <meta
                 http-equiv="content-type"
                 content="text/html; charset=utf-8"
-              />
-              <link
-                rel="alternate"
-                href="/feed.xml"
-                title="RSS"
-                type="application/rss+xml"
               />
             - | # 网站小图标，可换成你自己的图片，改href中的部分即可
               <link
@@ -748,7 +742,6 @@ plugins: # <https://jekyllrb.com/docs/plugins/>
   - jekyll-default-layout # 为每个markdown自动生成layout
   - jekyll-seo-tag # 为每个页面生成标题
   - jekyll-sitemap # 为站点生成站点地图
-  - jekyll-feed # 为站点生成RSS源
   - jekyll-redirect-from # 站点页面重定向
   - jekyll-remote-theme # 使用remote_theme插件实现主题的前后分离，详见<https://github.com/benbalter/jekyll-remote-theme/>
 
