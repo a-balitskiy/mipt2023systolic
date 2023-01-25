@@ -19,6 +19,4 @@
 ## лекции
 
 - будут появляться по ходу семестра
-- [10 февраля]({{site.baseurl}}/lecture1)
-
-[comment]: # - [10 февраля]({{site.baseurl}}/lecture1)
+<!--- [10 февраля]({{site.baseurl}}/lecture1) -->
