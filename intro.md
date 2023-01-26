@@ -51,6 +51,7 @@ TBA
 + Кратчайшие замкнутые геодезические на сфере.
 + Размер графа в терминах обхвата и хроматического числа по Камалу--Карасёву.
 + Финслерова версия неравенства Пу по Сергею Иванову.
++ Систолическая свобода и жёсткость.
 + Квантовые коды, исправляющие ошибки.
 + Штрих-коды персистентных гомологий.
 
@@ -62,4 +63,5 @@ TBA
 + M. Katz, [Systolic geometry and topology](https://bookstore.ams.org/view?ProductCode=SURV/137). _American Mathematical Society_ (2007).
 + R. Rotman, [The length of a shortest closed geodesic and the area of a 2-dimensional sphere](https://www.ams.org/journals/proc/2006-134-10/S0002-9939-06-08297-9/). _Proceedings of the American Mathematical Society_ (2006).
 + S. Ivanov, [Filling minimality of Finslerian 2-discs](https://link.springer.com/article/10.1134/S0081543811040079). _Proceedings of the Steklov Institute of Mathematics_ (2011). 
++ H. Alpert, A. Balitskiy, L. Guth, [Systolic almost-rigidity modulo 2](https://arxiv.org/abs/2206.01968). _ArXiv preprint_ (2022).
 + A. Kamal, R. Karasev, [Systolic inequalities and chromatic number](https://arxiv.org/abs/2210.17090). _ArXiv preprint_ (2022).
