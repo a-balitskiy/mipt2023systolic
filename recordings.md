@@ -3,4 +3,4 @@ title: "Видеозаписи"
 permalink: /recordings
 ---
 
-1. Введение и теорема Липтона--Тарьяна --- [Видео](https://drive.google.com/file/d/1RXC171bbQnui_-lpQU6ZCwRgLc0E3Bqb/view?usp=sharing), [доска]({{site.baseurl}}/whiteboard/lec1.png).
+1. Введение и теорема Липтона--Тарьяна --- [видео](https://drive.google.com/file/d/1RXC171bbQnui_-lpQU6ZCwRgLc0E3Bqb/view?usp=sharing), [доска]({{site.baseurl}}/whiteboard/lec1.png).
