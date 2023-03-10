@@ -4,7 +4,7 @@
 
 - по пятницам в 18:40 в [zoom](https://us06web.zoom.us/j/89148032937?pwd=aUNkNmd1eHUxTzd4a24wQ1VyUmVxQT09)'е
 
-- пятая лекция 10 марта
+- шестая лекция 17 марта
 
 <!-- .slide -->
 
