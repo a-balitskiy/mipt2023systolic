@@ -1,0 +1,26 @@
+I"<ul>
+  <li><a href="https://drive.google.com/file/d/1A-XD1jassbmxV22teE7WBX0jawDZaTc4/view?usp=sharing"><mark>Видео</mark></a></li>
+  <li><a href="/mipt2023systolic/whiteboard/lec6.pdf"><mark>Доска</mark></a></li>
+</ul>
+
+<h2 id="неравенство-безиковича">Неравенство Безиковича</h2>
+
+<blockquote>
+  <p><strong>Теорема [Besicovitch, 1952].</strong> Пусть $g$ — риманова метрика на квадрате $\square$, относительно которой расстояния медлу противоположными сторонами квадрата не меньше $1$. Тогда его площадь не меньше $1/2$.</p>
+</blockquote>
+
+<p><em>Доказательство.</em>
+Рассмотрим липшицевы функции $f_A, f_B: \square \to [0,1]$, определяемые так:</p>
+
+\[f_A(x) = \min(1, \dist(x,A))\]
+
+<p>\(\square\)</p>
+
+<h2 id="сепараторы-на-двумерной-сфере">Сепараторы на двумерной сфере</h2>
+
+<h2 id="cсылки">Cсылки</h2>
+<ul>
+  <li>A. Petrunin, <a href="https://anton-petrunin.github.io/metric-geometry/tex/lectures.pdf">Lectures on metric geometry</a>. Chapter III:  Metric geometry on
+manifolds.</li>
+</ul>
+:ET

@@ -2,9 +2,9 @@
 
 - онлайн-кружок весны 2023 г.
 
-- по пятницам в 18:40 в [zoom](https://us06web.zoom.us/j/89148032937?pwd=aUNkNmd1eHUxTzd4a24wQ1VyUmVxQT09)'е
+- по пятницам в 18:40 (GMT+3) в [zoom](https://us06web.zoom.us/j/89148032937?pwd=aUNkNmd1eHUxTzd4a24wQ1VyUmVxQT09)'е
 
-- шестая лекция 17 марта
+- седьмая лекция 24 марта
 
 <!-- .slide -->
 
@@ -23,4 +23,4 @@
 3. [Доказательство и приложения теоремы Кёбе]({{site.baseurl}}/lecture3)
 4. [Римановы многообразия]({{site.baseurl}}/lecture4)
 5. [Систолическое неравенство Лёвнера]({{site.baseurl}}/lecture5)
-
+6. [Неравенство Безиковича]({{site.baseurl}}/lecture6)
