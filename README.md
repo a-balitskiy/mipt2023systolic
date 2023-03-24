@@ -4,7 +4,7 @@
 
 - по пятницам в 18:40 (GMT+3) в [zoom](https://us06web.zoom.us/j/89148032937?pwd=aUNkNmd1eHUxTzd4a24wQ1VyUmVxQT09)'е
 
-- седьмая лекция 24 марта
+- восьмая лекция 31 марта
 
 <!-- .slide -->
 
@@ -24,3 +24,4 @@
 4. [Римановы многообразия]({{site.baseurl}}/lecture4)
 5. [Систолическое неравенство Лёвнера]({{site.baseurl}}/lecture5)
 6. [Неравенство Безиковича]({{site.baseurl}}/lecture6)
+7. [Поперечник и существенность]({{site.baseurl}}/lecture7)
