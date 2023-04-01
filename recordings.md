@@ -10,3 +10,4 @@ permalink: /recordings
 5. Систолическое неравенство Лёвнера --- [видео](https://drive.google.com/file/d/17kAPEFyOLaSj0x0yQw3wYJq5TXzeo3NX/view?usp=sharing), [доска]({{site.baseurl}}/whiteboard/lec5.pdf).
 6. Неравенство Безиковича --- [видео](https://drive.google.com/file/d/1A-XD1jassbmxV22teE7WBX0jawDZaTc4/view?usp=sharing), [доска]({{site.baseurl}}/whiteboard/lec6.pdf).
 7. Поперечник и существенность --- [видео](https://drive.google.com/file/d/1CrQQeXBEAIm3CN9bjkWnDEFjmlycq-v4/view?usp=sharing), [доска]({{site.baseurl}}/whiteboard/lec7.pdf).
+8. Пререквизиты к теореме Гута --- [видео](https://drive.google.com/file/d/1LYudxXLLx5CcwSu7GGzk80DMmhIVFwjR/view?usp=sharing), [доска]({{site.baseurl}}/whiteboard/lec8.pdf).

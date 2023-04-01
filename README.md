@@ -4,7 +4,7 @@
 
 - по пятницам в 18:40 (GMT+3) в [zoom](https://us06web.zoom.us/j/89148032937?pwd=aUNkNmd1eHUxTzd4a24wQ1VyUmVxQT09)'е
 
-- восьмая лекция 31 марта
+- девятая лекция 7 апреля
 
 <!-- .slide -->
 
@@ -25,3 +25,4 @@
 5. [Систолическое неравенство Лёвнера]({{site.baseurl}}/lecture5)
 6. [Неравенство Безиковича]({{site.baseurl}}/lecture6)
 7. [Поперечник и существенность]({{site.baseurl}}/lecture7)
+8. [Пререквизиты к теореме Гута]({{site.baseurl}}/lecture8)
