@@ -4,7 +4,7 @@
 
 - по пятницам в 18:40 (GMT+3) в [zoom](https://us06web.zoom.us/j/89148032937?pwd=aUNkNmd1eHUxTzd4a24wQ1VyUmVxQT09)'е
 
-- девятая лекция 7 апреля
+- десятая лекция 21 апреля
 
 <!-- .slide -->
 
