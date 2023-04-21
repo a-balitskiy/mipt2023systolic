@@ -1,0 +1,33 @@
+I"<ul>
+  <li><a href="https://drive.google.com/file/d/1bdodG4i90u_GftUeL6RH0nh48gpWE2wp/view?usp=sharing"><mark>Видео 1</mark></a></li>
+  <li><mark>Видео 2</mark> TBA</li>
+  <li><a href="/mipt2023systolic/whiteboard/lec1011.pdf"><mark>Доска</mark></a></li>
+</ul>
+
+<h2 id="геодезические">Геодезические</h2>
+
+<p>TBD</p>
+
+<h2 id="минимакс-биркгофа">Минимакс Биркгофа</h2>
+
+<blockquote>
+  <p><strong>Теорема [Lyusternik–Fet, 1951].</strong>
+На любом компактном римановом многообразии существует нетривиальная замкнутая геодезическая.</p>
+</blockquote>
+
+<p><em>Идея доказательства.</em></p>
+
+<p>\(\square\)</p>
+
+<p>TBD</p>
+
+<h2 id="теорема-кроука">Теорема Кроука</h2>
+
+<p>TBD</p>
+
+<h2 id="cсылки">Cсылки</h2>
+<ul>
+  <li>R. Bott, <a href="https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-7/issue-2/Lectures-on-Morse-theory-old-and-new/bams/1183549637.pdf">Lectures on Morse theory, old and new</a>. <em>Bulletin of the American Mathematical Society</em> (1982).</li>
+  <li>C.B. Croke, <a href="https://projecteuclid.org/journals/journal-of-differential-geometry/volume-27/issue-1/Area-and-the-length-of-the-shortest-closed-geodesic/10.4310/jdg/1214441646.pdf">Area and the length of the shortest closed geodesic</a>. <em>Journal of Differential Geometry</em> (1988).</li>
+</ul>
+:ET
