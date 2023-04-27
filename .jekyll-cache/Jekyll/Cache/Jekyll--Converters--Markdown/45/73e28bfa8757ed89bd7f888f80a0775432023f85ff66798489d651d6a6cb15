@@ -1,0 +1,94 @@
+I""<ul>
+  <li><a href="https://drive.google.com/file/d/10rpcVs1yATi4UOo51_uDN6ednXuu8kA-/view?usp=sharing"><mark>Видео</mark></a></li>
+  <li><a href="/mipt2023systolic/whiteboard/lec3.pdf"><mark>Доска</mark></a></li>
+</ul>
+
+<h2 id="доказательство-теоремы-кёбе">Доказательство теоремы Кёбе</h2>
+
+<blockquote>
+  <p><strong>Теорема [Koebe, 1936].</strong> Любой планарный трёхсвязный граф $G = (V,E)$ допускает двойное представление кругами.</p>
+</blockquote>
+
+<p>Будем считать, что у графа есть треугольная грань $abc$ (иначе заменим $G$ на двойственный граф $G^*$, см. <a href="/mipt2023systolic/problems#трёхсвязные-графы">задачу 2</a>). Попробуем организовать двойное представление кругами, чтобы внешней гранью $p_{ext} \in V^*$ оказался треугольник $abc$, причём нарисованный равносторонним образом. Напомню, какой конструкции мы хотим добиться. Это семейство неперекрывающихся кругов $C_i$, $i \in V$, и семейство неперекрывающихся кругов $D_p$, $p \in V^* \setminus p_{ext}$, у которых радиусы $r_u &gt; 0$, $U = V \cup (V^* \setminus P_{ext})$, удовлетворяют следующим соотношениям. Если определить углы</p>
+
+\[\begin{equation}
+    \alpha_{ip} = \arctg \frac{r_p}{r_i}, \quad \alpha_{pi} = \arctg \frac{r_i}{r_p} = \frac{\pi}{2} - \alpha_{ip}, \tag{$\star$}
+\end{equation}\]
+
+<p>то выполняются равенства</p>
+
+\[\begin{equation}
+\begin{split}
+\forall i \in V \setminus \{a,b,c\}: \quad &amp;\sum_{p \text{ инцид. } i} \alpha_{ip} = \pi, \\
+\forall i \in \{a,b,c\}: \quad &amp;\sum_{p \text{ инцид. } i} \alpha_{ip} = \pi/6, \\
+\forall p \in V^* \setminus P_{ext}: \quad &amp;\sum_{i \text{ инцид. } p} \alpha_{pi} = \pi. \tag{$\heartsuit$}
+\end{split}
+\end{equation}\]
+
+<p>Если подобрать радиусы, чтобы для определяемых формулами $(\star)$ углов выполнялись соотношения типа $(\heartsuit)$, то из кругов соответствующих радиусов можно будет собрать искомое двойное представление.</p>
+
+<p>Углы $\beta_{ip} = \pi/2 - \beta_{pi} \in (0,\pi/2)$, удовлетворяющие соотношениям $(\heartsuit)$ (но не обязательно происходящие из каких-то радиусов как в $(\star)$), существуют (<a href="/mipt2023systolic/problems#трёхсвязные-графы">задача 2</a>).</p>
+
+<p><em>Доказательство теоремы Кёбе <strong>[Colin de Verdière, 1991]</strong>.</em>
+Рассмотрим вспомогательную функцию $\phi : \mathbb{R} \to \mathbb{R}$:
+\(\phi(x) = \int_{-\infty}^x \arctg e^t \; dt.\)
+Она гладкая, возрастающая, выпуклая, и ограничена снизу функцией $\frac{\pi}{2} |x|_{+}$.
+Здесь мы ввели обозначение <em>положительной срезки</em></p>
+
+\[|x|_+ = \begin{cases}
+x, &amp; x\ge 0, \\
+0, &amp; x&lt;0.
+\end{cases}\]
+
+<p>Аналогично вводится отрицательная срезка, так чтобы выполнялось $|x| = |x|_+ - |x|_-$.</p>
+
+<p>Ключевая идея: исследовать на минимум гладкую функцию $\Phi: \mathbb{R}^U \to \mathbb{R}$,</p>
+
+\[\Phi(x) = \sum_{ip \in J} (\phi(x_p - x_i) - \beta_{ip}(x_p-x_i)),\]
+
+<p>где $J$ обозначает множество всех инцидентных пар $i \in V, p \in V^* \setminus P_{ext}$.
+Если одновременно увеличить или уменьшить все $x_u$, значение $\Phi(x)$ не поменяется. Если зафиксировать $x_a=0$, и устремить $x$ к бесконечности, то значение $\Phi(x)$ тоже будет стремиться к бесконечности, как следует из оценки</p>
+
+\[\begin{align*}
+\Phi(x) &amp;= \sum_{ip \in J} (\phi(x_p - x_i) - \beta_{ip}(x_p-x_i)) \\
+&amp;\ge \sum_{ip \in J} (\frac{\pi}{2}|x_p - x_i|_+ - \beta_{ip}(|x_p-x_i|_+ - |x_p-x_i|_-)) \\
+&amp;= \sum_{ip \in J} (\beta_{pi}|x_p-x_i|_+ + \beta_{ip}|x_p-x_i|_-) \\
+&amp;\ge \sum_{ip \in J} \min(\beta_{pi}, \beta_{ip}) |x_p-x_i|.
+\end{align*}\]
+
+<p>Значит, в какой-то точке $y \in \mathbb{R}^U$ достигается минимум функции $\Phi$. Положим $r_i = e^{y_i}$, $\alpha_{ip} = \arctg \frac{r_p}{r_i} = \arctg e^{y_p-y_i}$, $\alpha_{pi} = \arctg e^{y_i-y_p}$, и проверим, что дают условия первого порядка $\frac{\partial \Phi}{\partial x_u} = 0$. Например, дифференцирование по $x_i$ даёт</p>
+
+\[\sum_{p \text{ инцид. } i} \beta_{ip} = \sum_{p \text{ инцид. } i} \phi'(y_p-y_i) = \sum_{p \text{ инцид. } i} \arctg e^{y_p-y_i} = \sum_{p \text{ инцид. } i} \alpha_{ip},\]
+
+<p>и аналогично можно продифференцировать по $x_p$. Углы $\beta_{\bullet}$ удовлетворяют условиям $(\heartsuit)$, а значит, и углы $\alpha_{\bullet}$ тоже им удовлетворяют.
+\(\square\)</p>
+
+<h2 id="приложения-теоремы-кёбе">Приложения теоремы Кёбе</h2>
+
+<ol>
+  <li>
+    <p>Планарные графы — плохие экспандеры. Мы уже рассмотрели одну манифестацию этого в виде теоремы Липтона–Тарьяна, но есть и более точные утверждения про собственные значеняи лапласиана планарного графа, выводимые из теоремы Кёбе.</p>
+  </li>
+  <li>
+    <p>Двойное представление графа кругами на сфере легко превращается в трёхмерный гиперболический многогранник с бесконечно удалёнными вершинами и прямыми двугранными углами <strong>[Andreev, 1970]</strong>. Другое многогранное представление Андреева содержится в <a href="/mipt2023systolic/problems#яйцо-в-клетке">задаче 3</a>.</p>
+  </li>
+  <li>
+    <p>Из графовой теоремы Кёбе можно вывести униформизационную <strong>[Rodin–Sullivan, 1987]</strong> (и обратно).</p>
+    <blockquote>
+      <p><strong>Теорема [Koebe, 1936].</strong> Любая связная открытая область на сфере с границей из конечного числа связных комнонент конформно эквивалентна сфере, из которой выбросили конечное число сферических шапочек и точек.</p>
+    </blockquote>
+  </li>
+</ol>
+
+<p align="center">
+<img src="/mipt2023systolic/images/lec3kcg.jpg" alt="Конформная теорема Кёбе влечёт графовую" title="Рисунок:  L. Lovász" height="200" /> 
+<img src="/mipt2023systolic/images/lec3kgc.jpg" alt="Графовая теорема Кёбе влечёт конформную" title="Рисунок:  L. Lovász" height="200" />
+</p>
+
+<h2 id="cсылки">Cсылки</h2>
+<ul>
+  <li>Е.М. Андреев, <a href="https://www.mathnet.ru/php/archive.phtml?wshow=paper&amp;jrnid=sm&amp;paperid=3382&amp;option_lang=rus">О выпуклых многогранниках в пространствах Лобачевского</a>, <em>Математический сборник</em> (1970).</li>
+  <li>B. Rodin, D. Sullivan, <a href="https://projecteuclid.org/journalArticle/Download?urlid=10.4310%2Fjdg%2F1214441375">The convergence of circle packings to the Riemann mapping</a>. <em>Journal of Differential Geometry</em> (1987).</li>
+  <li>L. Lovász, <a href="http://web.cs.elte.hu/~lovasz/bookxx/geomgraphbook/geombook2019.01.11.pdf">Graphs and Geometry</a>. <em>American Mathematical Society</em> (2019). Chapter 5:  Coin representation.</li>
+</ul>
+:ET
