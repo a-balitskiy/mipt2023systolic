@@ -13,4 +13,4 @@ permalink: /recordings
 8. Пререквизиты к теореме Гута --- [видео](https://drive.google.com/file/d/1LYudxXLLx5CcwSu7GGzk80DMmhIVFwjR/view?usp=sharing), [доска]({{site.baseurl}}/whiteboard/lec89.pdf) (общая с лекцией 9).
 9. Доказательство Папасоглу теоремы Гута --- [видео](https://drive.google.com/file/d/1XK3VTK-k5w-nJ4-b3QRy8K4WCcIYKxTC/view?usp=sharing), [доска]({{site.baseurl}}/whiteboard/lec89.pdf) (общая с лекцией 8).
 10. Существование замкнутых геодезических на поверхностях --- [видео](https://drive.google.com/file/d/1bdodG4i90u_GftUeL6RH0nh48gpWE2wp/view?usp=sharing), [доска]({{site.baseurl}}/whiteboard/lec1011.pdf) (общая с лекцией 11).
-11. Короткие замкнутые геодезические на сфере --- видео TBA.
+11. Короткие замкнутые геодезические на сфере --- [видео](https://drive.google.com/file/d/1hFpcpOi-cTl7LgLxorDNohHXKFgKC6P-/view?usp=sharing), [доска]({{site.baseurl}}/whiteboard/lec1011.pdf) (общая с лекцией 10).

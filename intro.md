@@ -61,7 +61,7 @@ $$
 + M. Gromov, [Filling Riemannian manifolds](https://www.ihes.fr/~gromov/metricinvariants/118/). _Journal of Differential Geometry_ (1983).
 + M. Katz, [Systolic geometry and topology](https://bookstore.ams.org/view?ProductCode=SURV/137). _American Mathematical Society_ (2007).
 + L. Guth, [Metaphors in systolic geometry](https://www.worldscientific.com/doi/abs/10.1142/9789814324359_0072). _Proceedings of the International Congress of Mathematicians 2010_ (2011).
-+ R. Rotman, [The length of a shortest closed geodesic and the area of a 2-dimensional sphere](https://www.ams.org/journals/proc/2006-134-10/S0002-9939-06-08297-9/). _Proceedings of the American Mathematical Society_ (2006).
++ C.B. Croke, [Area and the length of the shortest closed geodesic](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-27/issue-1/Area-and-the-length-of-the-shortest-closed-geodesic/10.4310/jdg/1214441646.pdf). _Journal of Differential Geometry_ (1988).
 + S. Ivanov, [Filling minimality of Finslerian 2-discs](https://link.springer.com/article/10.1134/S0081543811040079). _Proceedings of the Steklov Institute of Mathematics_ (2011). 
 + H. Alpert, A. Balitskiy, L. Guth, [Systolic almost-rigidity modulo 2](https://arxiv.org/abs/2206.01968). _ArXiv preprint_ (2022).
 + A. Kamal, R. Karasev, [Systolic inequalities and chromatic number](https://arxiv.org/abs/2210.17090). _ArXiv preprint_ (2022).
